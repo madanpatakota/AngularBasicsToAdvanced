@@ -1,0 +1,40 @@
+
+<!-- ngStyle ngClass ngFor ngIf  -->
+
+
+<!-- Element  -->
+<p appFirst>Hello world</p>
+
+<span appFirst>Hello world</span>
+
+<h1 appFirst>Heading 1</h1>
+
+<input appFirst />
+
+<hr>
+
+<!-- *ngIf -->
+
+<p [color]="'red'" appSecond>Hello world</p>
+<span [color]="'blue'" appSecond>Hello world</span>
+<h1 [color]="'black'" appSecond>Heading 1</h1>
+<input [color]="'aqua'" appSecond />
+
+
+<div [ngSwitch]="weekName">
+    <div *ngSwitchCase="'Mon'">Today is Monday</div>
+    <div *ngSwitchCase="'Tue'">Today is Tuesday</div>
+    <div *ngSwitchCase="'Wed'">Today is Wednesay</div>
+    <div *ngSwitchCase="'Thu'">Today is Thu</div>
+    <div *ngSwitchCase="'Fri'">Today is Fri</div>
+    <div *ngSwitchCase="'Sat'">Today is Sat</div>
+    <div *ngSwitchCase="'Sun'">Today is Sun</div>
+</div>
+
+
+
+
+
+
+
+
